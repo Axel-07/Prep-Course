@@ -110,7 +110,7 @@ describe('numeroMasGrande(numbers)', function() {
 describe('multiplicarArgumentos()', function () {
   it('should return the product of all the arguments', function () {
     const product = multiplicarArgumentos(5, 5);
-    const product2 = multiplicarArgumentos();
+    const product2 = multiplicarArgumentos(0);
     const product3 = multiplicarArgumentos(3, 3, 3, 3);
     const product4 = multiplicarArgumentos(1);
     const product5 = multiplicarArgumentos(10, 0, 10);
